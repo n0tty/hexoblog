@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>c0dehouse</title>
+  <subtitle>Learn, Share, Hack</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://n0tty.github.com/"/>
+  <updated>2016-12-04T15:52:22.330Z</updated>
+  <id>http://n0tty.github.com/</id>
+  
+  <author>
+    <name>Tanoy Bose</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The Red Team&#39;s Ratatouille</title>
+    <link href="http://n0tty.github.com/2016/11/30/Red-Team-Ratatouille/"/>
+    <id>http://n0tty.github.com/2016/11/30/Red-Team-Ratatouille/</id>
+    <published>2016-11-30T08:47:03.000Z</published>
+    <updated>2016-12-04T15:52:22.330Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;begin-Introduction&quot;&gt;&lt;a href=&quot;#begin-Introduction&quot; class=&quot;headerlink&quot; title=&quot;:begin Introduction&quot;&gt;&lt;/a&gt;:begin Introduction&lt;/h3&gt;&lt;p&gt;The concept of &lt;a href=&quot;http://www.irongeek.com/i.php?page=security/plug-and-prey-malicious-usb-devices&quot;&gt;Plug and Prey: Malicious USB Devices&lt;/a&gt; device by Irongeek at Shmoocon, &lt;a href=&quot;https://srlabs.de/projects/badusb/&quot;&gt;bad usb&lt;/a&gt; by Karsten Nohl at Blackhat or the &lt;a href=&quot;https://hakshop.com/products/usb-rubber-ducky-deluxe&quot;&gt;Rubber ducky&lt;/a&gt; by Hak5, these are super interesting concepts that are leveraged at every Red Team enagement that is conducted by a Red Team Operator. Any such exploitation requires good amount of social engineering. I recommend people should have exhausted every possible trick in the book to compromise from the external network of the organization before attempting to breach physical security.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Red Team" scheme="http://n0tty.github.com/tags/Red-Team/"/>
+    
+      <category term="Bad USB" scheme="http://n0tty.github.com/tags/Bad-USB/"/>
+    
+      <category term="Malicious Mouse Attack" scheme="http://n0tty.github.com/tags/Malicious-Mouse-Attack/"/>
+    
+      <category term="Plug and Prey Malicious USB Devices" scheme="http://n0tty.github.com/tags/Plug-and-Prey-Malicious-USB-Devices/"/>
+    
+      <category term="Driveby Mouse" scheme="http://n0tty.github.com/tags/Driveby-Mouse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vulnhub: Hackday Albania</title>
+    <link href="http://n0tty.github.com/2016/11/24/Vulnhub-Hackday-Albania/"/>
+    <id>http://n0tty.github.com/2016/11/24/Vulnhub-Hackday-Albania/</id>
+    <published>2016-11-24T06:16:11.000Z</published>
+    <updated>2016-12-04T05:42:00.487Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A new night, and a new virtual image to break. Hah! Sound fun.&lt;/p&gt;
+&lt;p&gt;We begin Hackday Albania, the usual way, by setting up Virtual box, on host-only mode.&lt;/p&gt;
+&lt;h3 id=&quot;Enumeration&quot;&gt;&lt;a href=&quot;#Enumeration&quot; class=&quot;headerlink&quot; title=&quot;Enumeration&quot;&gt;&lt;/a&gt;Enumeration&lt;/h3&gt;&lt;p&gt;We launch our nmap with the following command&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;n0tty@c0ffee$ nmap -A 192.168.56.101&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="vulnhub" scheme="http://n0tty.github.com/tags/vulnhub/"/>
+    
+      <category term="hackday" scheme="http://n0tty.github.com/tags/hackday/"/>
+    
+      <category term="albania" scheme="http://n0tty.github.com/tags/albania/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A new beginning</title>
+    <link href="http://n0tty.github.com/2016/11/23/A-new-beginning/"/>
+    <id>http://n0tty.github.com/2016/11/23/A-new-beginning/</id>
+    <published>2016-11-24T00:18:55.000Z</published>
+    <updated>2016-12-04T05:43:07.299Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Just another attempt on trying a different UI for blogging, I have chosen &lt;a href=&quot;https://github.com/klugjo/hexo-theme-alpha-dust&quot; targe
+    
+    </summary>
+    
+    
+      <category term="c0dehouse" scheme="http://n0tty.github.com/tags/c0dehouse/"/>
+    
+  </entry>
+  
+</feed>
