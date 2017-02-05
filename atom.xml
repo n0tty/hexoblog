@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://n0tty.github.com/"/>
-  <updated>2016-12-04T15:52:22.330Z</updated>
+  <updated>2017-02-05T05:43:12.671Z</updated>
   <id>http://n0tty.github.com/</id>
   
   <author>
@@ -16,10 +16,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Vulnhub 64Base</title>
+    <link href="http://n0tty.github.com/2016/12/11/Vulnhub-64Base/"/>
+    <id>http://n0tty.github.com/2016/12/11/Vulnhub-64Base/</id>
+    <published>2016-12-10T21:06:33.000Z</published>
+    <updated>2017-02-05T05:43:12.671Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;We being with the usual… Download the image, run a ping scan with nmap to identify the system’s IP, and then run Aggressive scan on IPs I
+    
+    </summary>
+    
+    
+      <category term="Vulnhub" scheme="http://n0tty.github.com/tags/Vulnhub/"/>
+    
+      <category term="64Base" scheme="http://n0tty.github.com/tags/64Base/"/>
+    
+      <category term="Boot2Root" scheme="http://n0tty.github.com/tags/Boot2Root/"/>
+    
+      <category term="CTF" scheme="http://n0tty.github.com/tags/CTF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>The Red Team&#39;s Ratatouille</title>
     <link href="http://n0tty.github.com/2016/11/30/Red-Team-Ratatouille/"/>
     <id>http://n0tty.github.com/2016/11/30/Red-Team-Ratatouille/</id>
-    <published>2016-11-30T08:47:03.000Z</published>
+    <published>2016-11-29T22:17:03.000Z</published>
     <updated>2016-12-04T15:52:22.330Z</updated>
     
     <summary type="html">
@@ -45,7 +69,7 @@
     <title>Vulnhub: Hackday Albania</title>
     <link href="http://n0tty.github.com/2016/11/24/Vulnhub-Hackday-Albania/"/>
     <id>http://n0tty.github.com/2016/11/24/Vulnhub-Hackday-Albania/</id>
-    <published>2016-11-24T06:16:11.000Z</published>
+    <published>2016-11-23T19:46:11.000Z</published>
     <updated>2016-12-04T05:42:00.487Z</updated>
     
     <summary type="html">
@@ -69,7 +93,7 @@
     <title>A new beginning</title>
     <link href="http://n0tty.github.com/2016/11/23/A-new-beginning/"/>
     <id>http://n0tty.github.com/2016/11/23/A-new-beginning/</id>
-    <published>2016-11-24T00:18:55.000Z</published>
+    <published>2016-11-23T13:48:55.000Z</published>
     <updated>2016-12-04T05:43:07.299Z</updated>
     
     <summary type="html">
