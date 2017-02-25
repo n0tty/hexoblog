@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://n0tty.github.com/"/>
-  <updated>2017-02-25T10:26:07.274Z</updated>
+  <updated>2017-02-25T11:31:02.623Z</updated>
   <id>http://n0tty.github.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://n0tty.github.com/2017/02/25/ISP-Hacking/"/>
     <id>http://n0tty.github.com/2017/02/25/ISP-Hacking/</id>
     <published>2017-02-25T04:06:14.000Z</published>
-    <updated>2017-02-25T10:26:07.274Z</updated>
+    <updated>2017-02-25T11:31:02.623Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;Generally ISPs have been very ignorant towards their security, resulting in requirement of the government to enforce policies that would be required ISPs and Telecom Operators to provide the end users a secure and a private communication network. However, due to issues with money, ISPs prefer to relax on most of the security issues or end up hiring firms with external consultants with no idea on how to secure a Telecom Infrastructure. This is the exact reason people would require to audit their own ISPs and make a note of the vulnerabilities. The specific configurational vulnerabilities that would be mentioned in this blog results in not only of an attacker to gain credentials to access internet, but he is also capable of doing crazy number of things while sitting on the same network. The network of this ISP has been the same for more than 2 years and continues to be the same.&lt;/p&gt;
+      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;Generally ISPs have been very ignorant towards their security, resulting in requirement of the government to enforce policies that would be required ISPs and Telecom Operators to provide the end users a secure and a private communication network. However, due to issues with money, ISPs prefer to relax on most of the security issues or end up hiring firms with external consultants with no idea on how to secure a Telecom Infrastructure. This is the exact reason people would require to audit their own ISPs and make a note of the vulnerabilities. The specific configurational vulnerabilities that would be mentioned in this blog results in not only of an attacker to gain credentials to access internet, but he is also capable of doing crazy number of things while sitting on the same network. The network of this ISP has been the same for more than 2 years now.&lt;/p&gt;
     
     </summary>
     
