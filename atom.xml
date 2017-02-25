@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://n0tty.github.com/"/>
-  <updated>2016-12-04T15:52:22.330Z</updated>
+  <updated>2017-02-25T08:15:49.915Z</updated>
   <id>http://n0tty.github.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>All your creds are belong to us: Hacking an ISP for fun and internet</title>
+    <link href="http://n0tty.github.com/2017/01/17/ISP-Hacking/"/>
+    <id>http://n0tty.github.com/2017/01/17/ISP-Hacking/</id>
+    <published>2017-01-17T14:06:14.000Z</published>
+    <updated>2017-02-25T08:15:49.915Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;Generally ISPs have been very ignorant towards their security, resulting in requirement of the government to enforce policies that would be required ISPs and Telecom Operators to provide the end users a secure and a private communication network. However, due to issues with money, ISPs prefer to relax on most of the security issues or end up hiring firms with external consultants with no idea on how to secure a Telecom Infrastructure. This is the exact reason people would require to audit their own ISPs and make a note of the vulnerabilities. The specific configurational vulnerabilities that would be mentioned in this blog results in not only of an attacker to gain credentials to access internet, but he is also capable of doing crazy number of things while sitting on the same network. The network of this ISP has been the same for more than 2 years and continues to be the same.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Internet Security Provider" scheme="http://n0tty.github.com/tags/Internet-Security-Provider/"/>
+    
+      <category term="ISP" scheme="http://n0tty.github.com/tags/ISP/"/>
+    
+      <category term="PPPoE PAP" scheme="http://n0tty.github.com/tags/PPPoE-PAP/"/>
+    
+      <category term="Man in the middle" scheme="http://n0tty.github.com/tags/Man-in-the-middle/"/>
+    
+      <category term="ISP Hacking" scheme="http://n0tty.github.com/tags/ISP-Hacking/"/>
+    
+  </entry>
   
   <entry>
     <title>The Red Team&#39;s Ratatouille</title>
