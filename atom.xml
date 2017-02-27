@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://n0tty.github.com/"/>
-  <updated>2017-02-27T08:53:22.028Z</updated>
+  <updated>2017-02-27T09:45:35.168Z</updated>
   <id>http://n0tty.github.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vulnhub - OSCP Series - Kioptrix Level 1</title>
+    <link href="http://n0tty.github.com/2017/02/25/kioptrix-1/"/>
+    <id>http://n0tty.github.com/2017/02/25/kioptrix-1/</id>
+    <published>2017-02-25T18:29:37.000Z</published>
+    <updated>2017-02-27T09:45:35.168Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Overview&quot;&gt;&lt;a href=&quot;#Overview&quot; class=&quot;headerlink&quot; title=&quot;Overview&quot;&gt;&lt;/a&gt;Overview&lt;/h2&gt;&lt;p&gt;Part of the OSCP preparation VMs from vulnhub, Kioptrix is a boot to root challenge series. While travelling 6 hours in an intercity bus, without any access to internet, I took upon myself to attempt solving as many Kioptrix levels as possible. Turns out it was super hard with the enormous number of errors I faced during compilation of any of the exploits that I wanted.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Vulnhub" scheme="http://n0tty.github.com/tags/Vulnhub/"/>
+    
+      <category term="Kioptrix" scheme="http://n0tty.github.com/tags/Kioptrix/"/>
+    
+      <category term="Kioptrix level 1" scheme="http://n0tty.github.com/tags/Kioptrix-level-1/"/>
+    
+      <category term="OSCP Series" scheme="http://n0tty.github.com/tags/OSCP-Series/"/>
+    
+  </entry>
   
   <entry>
     <title>All your creds are belong to us: Hacking an ISP for fun and internet</title>
