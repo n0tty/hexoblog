@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://n0tty.github.com/"/>
-  <updated>2017-02-27T09:45:35.168Z</updated>
+  <updated>2017-03-16T11:56:54.871Z</updated>
   <id>http://n0tty.github.com/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vulnhub: Pluck 1</title>
+    <link href="http://n0tty.github.com/2017/03/12/Vulnhub-Pluck-1/"/>
+    <id>http://n0tty.github.com/2017/03/12/Vulnhub-Pluck-1/</id>
+    <published>2017-03-12T12:06:35.000Z</published>
+    <updated>2017-03-16T11:56:54.871Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;Just another writeup for another boot2root Vulnhub Challenge. This one is great to test out different types of exploitation techniques.&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Vulnhub" scheme="http://n0tty.github.com/tags/Vulnhub/"/>
+    
+      <category term="Pluck" scheme="http://n0tty.github.com/tags/Pluck/"/>
+    
+      <category term="boot2root" scheme="http://n0tty.github.com/tags/boot2root/"/>
+    
+  </entry>
   
   <entry>
     <title>Vulnhub - OSCP Series - Kioptrix Level 1</title>
