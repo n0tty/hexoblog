@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://n0tty.github.com/"/>
-  <updated>2017-03-16T12:09:43.015Z</updated>
+  <updated>2017-06-12T21:55:35.151Z</updated>
   <id>http://n0tty.github.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Enterprise Offense: IT Operations [Part 1] - Hacking Puppet and Ansible Infrastructures&quot;</title>
+    <link href="http://n0tty.github.com/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/"/>
+    <id>http://n0tty.github.com/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/</id>
+    <published>2017-06-11T15:26:34.000Z</published>
+    <updated>2017-06-12T21:55:35.151Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;Compromising the Active Directory and the domain administrator has mainly been the goal of an infrastructure penetration test or a red team engagment. This is so because once you have the domain administrator, you could start accessing the various infrastructure components and show the potential threat that such a compromise could cause. However, during penetration testing of a non-Active Directory infrastructure, the ultimate goal is extremely unclear. At such assessments, we end up compromising one system, one database and terminate our exercise. Such environments could include but not limited to ERP infrastructure (SAP systems), SCADA infrastructure (linux and windows systems), Telecom infrastructure (linux and windows systems), Banking infrastrucure (SWIFT). During my work with such infrastructures I researched interesting compromise that could give you priviledges similar to that of domain administrator, and do this by using specific IT operation tools. This blog isn’t going to be about exploitation but would rather have interesting ways of post exploitation pillaging.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Red Team" scheme="http://n0tty.github.com/tags/Red-Team/"/>
+    
+      <category term="IT Operations hacking" scheme="http://n0tty.github.com/tags/IT-Operations-hacking/"/>
+    
+      <category term="Enterprise Offense" scheme="http://n0tty.github.com/tags/Enterprise-Offense/"/>
+    
+      <category term="Puppet Hack" scheme="http://n0tty.github.com/tags/Puppet-Hack/"/>
+    
+      <category term="Ansible Hack" scheme="http://n0tty.github.com/tags/Ansible-Hack/"/>
+    
+  </entry>
   
   <entry>
     <title>Vulnhub: Pluck 1</title>
