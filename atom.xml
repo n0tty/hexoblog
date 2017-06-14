@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://n0tty.github.com/"/>
-  <updated>2017-06-12T23:09:01.551Z</updated>
+  <updated>2017-06-14T15:33:17.299Z</updated>
   <id>http://n0tty.github.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://n0tty.github.com/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/"/>
     <id>http://n0tty.github.com/2017/06/11/Enterprise-Offense-IT-Operations-Part-1/</id>
     <published>2017-06-11T15:26:34.000Z</published>
-    <updated>2017-06-12T23:09:01.551Z</updated>
+    <updated>2017-06-14T15:33:17.299Z</updated>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;Compromising the Active Directory and the domain administrator has mainly been the goal of an infrastructure penetration test or a red team engagment. This is so because once you have the domain administrator, you could start accessing the various infrastructure components and show the potential threat that such a compromise could cause. However, during penetration testing of a non-Active Directory infrastructure, the ultimate goal is extremely unclear. At such assessments, we end up compromising one system, one database and terminate our exercise. Such environments could include but not limited to ERP infrastructure (SAP systems), SCADA infrastructure (linux and windows systems), Telecom infrastructure (linux and windows systems), Banking infrastrucure (SWIFT). During my work with such infrastructures I researched interesting compromise that could give you priviledges similar to that of domain administrator, and do this by using specific IT operation tools. This blog isn’t going to be about exploitation but would rather have interesting ways of post exploitation pillaging.&lt;br&gt;
+      &lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h2&gt;&lt;p&gt;Confusion generally prevails while hacking a infrastructure that is not integrated with Active directory. Lateral movement is generally dependent on password spraying and common vulnerability availability. This blog will touch upon IT Operators tools - Puppet and Ansible - that is used to automate the process of managing these non-domain systems as well as cover the topic on how a hacker (or pentester) could utilize these tools to laterally move in the environment.&lt;br&gt;
     
     </summary>
     
